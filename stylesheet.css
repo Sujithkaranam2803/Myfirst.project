@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0;
     padding: 0;
 
@@ -6,10 +6,10 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(tree-1.png);
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    height: 109vh;
 }
 
 .navbar{
@@ -91,7 +91,7 @@ ul li a:hover{
     width: 100px;
     height: 40px;
     background: #ff7200;
-    borger: 2px solid #ff7200;
+    border: 2px solid #ff7200;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -113,13 +113,14 @@ ul li a:hover{
     color: #fff;
     position: relative;
 }
-
-,content.par{
-    padding-left: 25px;
-    padding-bottom: 25px;
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
     font-family: Arial;
     letter-spacing: 1.2px;
     line-height: 30px;
+    
+
 }
 
 .content h1{
